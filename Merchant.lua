@@ -51,7 +51,7 @@ spawn(function()
 						wait()
 						game:GetService("TeleportService"):TeleportToPlaceInstance(PlaceID, ID, game.Players.LocalPlayer)
 					end)
-					wait(4)
+				    wait(4)
 				end
 			end
 		end
@@ -130,11 +130,11 @@ if (Lib.Network.Invoke("get merchant items")["Level 3"]) then
 	else
 
 		for i,v in pairs(Lib.Network.Invoke("get merchant items")) do
-			if ((v.petId == "288") and v.petExtra.r) then
+			if ((v.petId == "302") and v.petExtra.r) then
 				notOutOfStock = Lib.Network.Invoke("buy merchant item", tonumber(i:split(" ")[2]))
 				if notOutOfStock then
 					console.newline()
-					console.formatcolors(" - &aBought Rainbow Santa Paws")
+					console.formatcolors(" - &aBought Rainbow Hellish Axolotl")
 					getgenv().itemsBought = getgenv().itemsBought + 1
 				end
 			end
