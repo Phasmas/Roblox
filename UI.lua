@@ -30,7 +30,7 @@ function UILib.CreateWindow(libName, version, logoId)
     key1.Size = UDim2.new(0, 76, 0, 22)
     key1.ZIndex = 2
     key1.Font = Enum.Font.GothamSemibold
-    key1.Text = "RightShift"
+    key1.Text = "Right Shift"
     key1.TextColor3 = Color3.fromRGB(227, 66, 255)
     key1.TextSize = 14.000
 
@@ -73,7 +73,7 @@ function UILib.CreateWindow(libName, version, logoId)
     keybindInfo1.ZIndex = 2
     keybindInfo1.Font = Enum.Font.GothamSemibold
     keybindInfo1.Text = "Close"
-    keybindInfo1.TextColor3 = Color3.fromRGB(255, 0, 0)
+    keybindInfo1.TextColor3 = Color3.fromRGB(255, 255, 255)
     keybindInfo1.TextSize = 13.000
     keybindInfo1.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -1560,7 +1560,7 @@ function UILib.CreateWindow(libName, version, logoId)
                                 TweenInfo.new(0.18, Enum.EasingStyle.Linear, Enum.EasingDirection.Out),
                                 {
                                     BackgroundColor3 = Color3.fromRGB(21, 21, 21),
-                                    TextColor3 = Color3.fromRGB(120, 200, 187)
+                                    TextColor3 = Color3.fromRGB(227, 66, 255)
                                 }
                             ):Play()
                         end
