@@ -211,7 +211,7 @@ function UILib.CreateWindow(libName, version, logoId)
 
     wave.Name = "wave"
     wave.Parent = MainFrame
-    wave.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    wave.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     wave.BackgroundTransparency = 1.000
     wave.Position = UDim2.new(0.0213434305, 0, 0, 0)
     wave.Size = UDim2.new(0.97865659, 0, 0.557522118, 0)
