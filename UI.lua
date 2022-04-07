@@ -119,8 +119,8 @@ function UILib.CreateWindow(libName, version, logoId)
 
     --
     libName = libName or "LuxtLib"
-    logoId = "PSX"
-    version = game:GetService("Players").LocalPlayer.Name
+    logoId = logoId or ""
+    version = version or game:GetService("Players").LocalPlayer.Name
     --
 
     LuxtLib.Name = "LuxtLib" .. libName
@@ -129,7 +129,7 @@ function UILib.CreateWindow(libName, version, logoId)
 
     MainFrame.Name = "MainFrame"
     MainFrame.Parent = shadow
-    MainFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+    MainFrame.BackgroundColor3 = Color3.fromRGB(242, 168, 255)
     MainFrame.Position = UDim2.new(0.048, 0, 0.075, 0)
     MainFrame.Size = UDim2.new(0, 653, 0, 452)
 
