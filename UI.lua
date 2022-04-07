@@ -1560,7 +1560,7 @@ function UILib.CreateWindow(libName, version, logoId)
                                 TweenInfo.new(0.18, Enum.EasingStyle.Linear, Enum.EasingDirection.Out),
                                 {
                                     BackgroundColor3 = Color3.fromRGB(21, 21, 21),
-                                    TextColor3 = Color3.fromRGB(120, 200, 187)
+                                    TextColor3 = Color3.fromRGB(255, 0, 0)
                                 }
                             ):Play()
                         end
