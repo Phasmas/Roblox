@@ -31,7 +31,7 @@ function UILib.CreateWindow(libName, version, logoId)
     key1.ZIndex = 2
     key1.Font = Enum.Font.GothamSemibold
     key1.Text = "Right Shift"
-    key1.TextColor3 = Color3.fromRGB(7, 31, 130)
+    key1.TextColor3 = Color3.fromRGB(7, 31, 138)
     key1.TextSize = 14.000
 
     local oldKey = Enum.KeyCode.RightShift.Name
@@ -145,14 +145,14 @@ function UILib.CreateWindow(libName, version, logoId)
 
     sideCover.Name = "sideCover"
     sideCover.Parent = sideHeading
-    sideCover.BackgroundColor3 = Color3.fromRGB(7, 31, 130)
+    sideCover.BackgroundColor3 = Color3.fromRGB(7, 31, 138)
     sideCover.BorderSizePixel = 0
-    sideCover.Position = UDim2.new(0.8, 0, 0, 0)
-    sideCover.Size = UDim2.new(0, 8, 0, 452)
+    sideCover.Position = UDim2.new(0.9, 0, 0, 0)
+    sideCover.Size = UDim2.new(0, 0.5, 0, 452)
 
     hubLogo.Name = "hubLogo"
     hubLogo.Parent = sideHeading
-    hubLogo.BackgroundColor3 = Color3.fromRGB(7, 31, 130)
+    hubLogo.BackgroundColor3 = Color3.fromRGB(7, 31, 138)
     hubLogo.Position = UDim2.new(0.0567928664, 0, 0.0243411884, 0)
     hubLogo.Size = UDim2.new(0, 30, 0, 30)
     hubLogo.ZIndex = 2
@@ -171,7 +171,7 @@ function UILib.CreateWindow(libName, version, logoId)
     hubName.ZIndex = 2
     hubName.Font = Enum.Font.GothamSemibold
     hubName.Text = libName
-    hubName.TextColor3 = Color3.fromRGB(7, 31, 130)
+    hubName.TextColor3 = Color3.fromRGB(7, 31, 138)
     hubName.TextSize = 14.000
     hubName.TextWrapped = true
     hubName.TextXAlignment = Enum.TextXAlignment.Left
@@ -216,7 +216,7 @@ function UILib.CreateWindow(libName, version, logoId)
     wave.Position = UDim2.new(0.0213434305, 0, 0, 0)
     wave.Size = UDim2.new(0.97865659, 0, 0.557522118, 0)
     wave.Image = "http://www.roblox.com/asset/?id=6087537285"
-    wave.ImageColor3 = Color3.fromRGB(227, 66, 255)
+    wave.ImageColor3 = Color3.fromRGB(242, 168, 255)
     wave.ImageTransparency = 0.300
     wave.ScaleType = Enum.ScaleType.Slice
 
@@ -1479,7 +1479,7 @@ function UILib.CreateWindow(libName, version, logoId)
                     optionBtn1.AutoButtonColor = false
                     optionBtn1.Font = Enum.Font.GothamSemibold
                     optionBtn1.Text = "  " .. v
-                    optionBtn1.TextColor3 = Color3.fromRGB(7, 31, 130)
+                    optionBtn1.TextColor3 = Color3.fromRGB(7, 31, 138)
                     optionBtn1.TextSize = 14.000
                     optionBtn1.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -1560,7 +1560,7 @@ function UILib.CreateWindow(libName, version, logoId)
                                 TweenInfo.new(0.18, Enum.EasingStyle.Linear, Enum.EasingDirection.Out),
                                 {
                                     BackgroundColor3 = Color3.fromRGB(21, 21, 21),
-                                    TextColor3 = Color3.fromRGB(7, 31, 130)
+                                    TextColor3 = Color3.fromRGB(7, 31, 138)
                                 }
                             ):Play()
                         end
