@@ -129,7 +129,7 @@ function UILib.CreateWindow(libName, version, logoId)
 
     MainFrame.Name = "MainFrame"
     MainFrame.Parent = shadow
-    MainFrame.BackgroundColor3 = Color3.fromRGB(130, 130, 130)
+    MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
     MainFrame.Position = UDim2.new(0.048, 0, 0.075, 0)
     MainFrame.Size = UDim2.new(0, 653, 0, 452)
 
