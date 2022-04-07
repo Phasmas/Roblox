@@ -145,10 +145,10 @@ function UILib.CreateWindow(libName, version, logoId)
 
     sideCover.Name = "sideCover"
     sideCover.Parent = sideHeading
-    sideCover.BackgroundColor3 = Color3.fromRGB(16, 42, 158)
+    sideCover.BackgroundColor3 = Color3.fromRGB(7, 31, 138)
     sideCover.BorderSizePixel = 0
-    sideCover.Position = UDim2.new(0.909677446, 0, 0, 0)
-    sideCover.Size = UDim2.new(0, 14, 0, 452)
+    sideCover.Position = UDim2.new(0.2, 0, 0, 0)
+    sideCover.Size = UDim2.new(0, 5, 0, 452)
 
     hubLogo.Name = "hubLogo"
     hubLogo.Parent = sideHeading
