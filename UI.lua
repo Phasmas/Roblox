@@ -72,7 +72,7 @@ function UILib.CreateWindow(libName, version, logoId)
     keybindInfo1.Size = UDim2.new(0, 50, 0, 22)
     keybindInfo1.ZIndex = 2
     keybindInfo1.Font = Enum.Font.GothamSemibold
-    keybindInfo1.Text = "Close"
+    keybindInfo1.Text = "Close UI"
     keybindInfo1.TextColor3 = Color3.fromRGB(255, 255, 255)
     keybindInfo1.TextSize = 13.000
     keybindInfo1.TextXAlignment = Enum.TextXAlignment.Left
@@ -147,8 +147,8 @@ function UILib.CreateWindow(libName, version, logoId)
     sideCover.Parent = sideHeading
     sideCover.BackgroundColor3 = Color3.fromRGB(7, 31, 138)
     sideCover.BorderSizePixel = 0
-    sideCover.Position = UDim2.new(0.9, 0, 0, 0)
-    sideCover.Size = UDim2.new(0, 0.5, 0, 452)
+    sideCover.Position = UDim2.new(0.1, 0, 0, 0)
+    sideCover.Size = UDim2.new(0, 2, 0, 452)
 
     hubLogo.Name = "hubLogo"
     hubLogo.Parent = sideHeading
@@ -216,7 +216,7 @@ function UILib.CreateWindow(libName, version, logoId)
     wave.Position = UDim2.new(0.0213434305, 0, 0, 0)
     wave.Size = UDim2.new(0.97865659, 0, 0.557522118, 0)
     wave.Image = "http://www.roblox.com/asset/?id=6087537285"
-    wave.ImageColor3 = Color3.fromRGB(242, 168, 255)
+    wave.ImageColor3 = Color3.fromRGB(227, 66, 255)
     wave.ImageTransparency = 0.300
     wave.ScaleType = Enum.ScaleType.Slice
 
