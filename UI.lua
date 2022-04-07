@@ -31,7 +31,7 @@ function UILib.CreateWindow(libName, version, logoId)
     key1.ZIndex = 2
     key1.Font = Enum.Font.GothamSemibold
     key1.Text = "RightShift"
-    key1.TextColor3 = Color3.fromRGB(153, 255, 238)
+    key1.TextColor3 = Color3.fromRGB(227, 66, 255)
     key1.TextSize = 14.000
 
     local oldKey = Enum.KeyCode.RightShift.Name
