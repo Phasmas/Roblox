@@ -216,7 +216,7 @@ function UILib.CreateWindow(libName, version, logoId)
     wave.Position = UDim2.new(0.0213434305, 0, 0, 0)
     wave.Size = UDim2.new(0.97865659, 0, 0.557522118, 0)
     wave.Image = "http://www.roblox.com/asset/?id=6087537285"
-    wave.ImageColor3 = Color3.fromRGB(242, 168, 255)
+    wave.ImageColor3 = Color3.fromRGB(227, 66, 255)
     wave.ImageTransparency = 0.300
     wave.ScaleType = Enum.ScaleType.Slice
 
@@ -226,7 +226,7 @@ function UILib.CreateWindow(libName, version, logoId)
 
     framesAll.Name = "framesAll"
     framesAll.Parent = MainFrame
-    framesAll.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    framesAll.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
     framesAll.BackgroundTransparency = 1.000
     framesAll.BorderSizePixel = 0
     framesAll.Position = UDim2.new(0.296564192, 0, 0.0242873337, 0)
@@ -235,7 +235,7 @@ function UILib.CreateWindow(libName, version, logoId)
 
     shadow.Name = "shadow"
     shadow.Parent = LuxtLib
-    shadow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    shadow.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
     shadow.BackgroundTransparency = 1.000
     shadow.Position = UDim2.new(0.319562584, 0, 0.168689325, 0)
     shadow.Size = UDim2.new(0, 719, 0, 530)
