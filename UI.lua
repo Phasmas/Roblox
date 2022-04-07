@@ -129,14 +129,14 @@ function UILib.CreateWindow(libName, version, logoId)
 
     MainFrame.Name = "MainFrame"
     MainFrame.Parent = shadow
-    MainFrame.BackgroundColor3 = Color3.fromRGB(242, 168, 255)
+    MainFrame.BackgroundColor3 = Color3.fromRGB(130, 130, 130)
     MainFrame.Position = UDim2.new(0.048, 0, 0.075, 0)
     MainFrame.Size = UDim2.new(0, 653, 0, 452)
 
     sideHeading.Name = "sideHeading"
     sideHeading.Parent = MainFrame
-    sideHeading.BackgroundColor3 = Color3.fromRGB(242, 168, 255)
-    sideHeading.Size = UDim2.new(0, 300, 0, 452)
+    sideHeading.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    sideHeading.Size = UDim2.new(0, 160, 0, 452)
     sideHeading.ZIndex = 2
 
     MainCorner.CornerRadius = UDim.new(0, 5)
