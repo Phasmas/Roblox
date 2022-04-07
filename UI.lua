@@ -61,7 +61,7 @@ function UILib.CreateWindow(libName, version, logoId)
         end
     )
 
-    UICorner.CornerRadius = UDim.new(0, 0)
+    UICorner.CornerRadius = UDim.new(0, 5)
     UICorner.Parent = key1
 
     keybindInfo1.Name = "keybindInfo"
@@ -119,8 +119,8 @@ function UILib.CreateWindow(libName, version, logoId)
 
     --
     libName = libName or "LuxtLib"
-    logoId = logoId or "PSX"
-    version = version or game:GetService("Players").LocalPlayer.Name
+    logoId = "PSX"
+    version = game:GetService("Players").LocalPlayer.Name
     --
 
     LuxtLib.Name = "LuxtLib" .. libName
