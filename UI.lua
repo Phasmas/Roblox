@@ -181,7 +181,7 @@ function UILib.CreateWindow(libName, version, logoId)
     tabFrame.Active = true
     tabFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     tabFrame.BackgroundTransparency = 1.000
-    tabFrame.BorderSizePixel = 0
+    tabFrame.BorderSizePixel = 3
     tabFrame.Position = UDim2.new(0.0000064, 0, 0.126385808, 0)
     tabFrame.Size = UDim2.new(0, 135, 0, 347)
     tabFrame.ZIndex = 2
@@ -266,7 +266,7 @@ function UILib.CreateWindow(libName, version, logoId)
         tabBtn.Parent = tabBtnFrame
         tabBtn.BackgroundColor3 = Color3.fromRGB(166, 248, 255)
         tabBtn.BackgroundTransparency = 1.000
-        tabBtn.Position = UDim2.new(0.245534033, 0, 0, 0)
+        tabBtn.Position = UDim2.new(0.045534033, 0, 0, 0)
         tabBtn.Size = UDim2.new(0, 101, 0, 30)
         tabBtn.ZIndex = 2
         tabBtn.Font = Enum.Font.Gotham
