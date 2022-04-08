@@ -31,7 +31,7 @@ function UILib.CreateWindow(libName, version, logoId)
     key1.ZIndex = 2
     key1.Font = Enum.Font.GothamSemibold
     key1.Text = "Right Shift"
-    key1.TextColor3 = Color3.fromRGB(7, 31, 138)
+    key1.TextColor3 = Color3.fromRGB(15, 59, 255)
     key1.TextSize = 14.000
 
     local oldKey = Enum.KeyCode.RightShift.Name
@@ -152,7 +152,7 @@ function UILib.CreateWindow(libName, version, logoId)
 
     hubLogo.Name = "hubLogo"
     hubLogo.Parent = sideHeading
-    hubLogo.BackgroundColor3 = Color3.fromRGB(66, 148, 255)
+    hubLogo.BackgroundColor3 = Color3.fromRGB(7, 31, 138)
     hubLogo.Position = UDim2.new(0.0567928664, 0, 0.0243411884, 0)
     hubLogo.Size = UDim2.new(0, 33, 0, 33)
     hubLogo.ZIndex = 2
