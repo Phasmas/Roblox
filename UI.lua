@@ -182,7 +182,7 @@ function UILib.CreateWindow(libName, version, logoId)
     tabFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     tabFrame.BackgroundTransparency = 1.000
     tabFrame.BorderSizePixel = 0
-    tabFrame.Position = UDim2.new(0.0567928664, 0, 0.126385808, 0)
+    tabFrame.Position = UDim2.new(0.0000064, 0, 0.126385808, 0)
     tabFrame.Size = UDim2.new(0, 135, 0, 347)
     tabFrame.ZIndex = 2
     tabFrame.ScrollBarThickness = 4
