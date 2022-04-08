@@ -152,11 +152,11 @@ function UILib.CreateWindow(libName, version, logoId)
 
     hubLogo.Name = "hubLogo"
     hubLogo.Parent = sideHeading
-    hubLogo.BackgroundColor3 = Color3.fromRGB(7, 31, 138)
+    hubLogo.BackgroundColor3 = Color3.fromRGB(227, 66, 255)
     hubLogo.Position = UDim2.new(0.0567928664, 0, 0.0243411884, 0)
-    hubLogo.Size = UDim2.new(0, 35, 0, 35)
+    hubLogo.Size = UDim2.new(0, 33, 0, 33)
     hubLogo.ZIndex = 2
-    hubLogo.Image = "http://www.roblox.com/asset/?id=6105530152"
+    hubLogo.Image = "http://www.roblox.com/asset/?id=6087537285"
 
     MainCorner_2.CornerRadius = UDim.new(0, 999)
     MainCorner_2.Name = "MainCorner"
@@ -166,13 +166,13 @@ function UILib.CreateWindow(libName, version, logoId)
     hubName.Parent = sideHeading
     hubName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     hubName.BackgroundTransparency = 1.000
-    hubName.Position = UDim2.new(0.290000081, 0, 0.0299999975, 0)
+    hubName.Position = UDim2.new(0.35, 0, 0.0299999975, 0)
     hubName.Size = UDim2.new(0, 110, 0, 16)
     hubName.ZIndex = 2
-    hubName.Font = Enum.Font.GothamSemibold
+    hubName.Font = Enum.Font.Creepster
     hubName.Text = libName
     hubName.TextColor3 = Color3.fromRGB(7, 31, 138)
-    hubName.TextSize = 14.000
+    hubName.TextSize = 16.000
     hubName.TextWrapped = true
     hubName.TextXAlignment = Enum.TextXAlignment.Left
 
