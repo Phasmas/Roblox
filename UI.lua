@@ -152,11 +152,11 @@ function UILib.CreateWindow(libName, version, logoId)
 
     hubLogo.Name = "hubLogo"
     hubLogo.Parent = sideHeading
-    hubLogo.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    hubLogo.BackgroundColor3 = Color3.fromRGB(7, 31, 138)
     hubLogo.Position = UDim2.new(0.0567928664, 0, 0.0243411884, 0)
-    hubLogo.Size = UDim2.new(0, 50, 0, 50)
+    hubLogo.Size = UDim2.new(0, 35, 0, 35)
     hubLogo.ZIndex = 2
-    hubLogo.Image = "https://media.giphy.com/media/Mb9GGpjLPorX0qHSF7/giphy.gif"
+    hubLogo.Image = "http://www.roblox.com/asset/?id=6105530152"
 
     MainCorner_2.CornerRadius = UDim.new(0, 999)
     MainCorner_2.Name = "MainCorner"
