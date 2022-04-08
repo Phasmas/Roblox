@@ -193,7 +193,7 @@ function UILib.CreateWindow(libName, version, logoId)
     tabFrame.BackgroundTransparency = 1.000
     tabFrame.BorderSizePixel = 0
     tabFrame.Position = UDim2.new(0, 0, 0.126385808, 0)
-    tabFrame.Size = UDim2.new(0, 155, 0, 347)
+    tabFrame.Size = UDim2.new(0, 154, 0, 347)
     tabFrame.ZIndex = 2
     tabFrame.ScrollBarThickness = 4
 
@@ -265,7 +265,7 @@ function UILib.CreateWindow(libName, version, logoId)
         tabBtn.Parent = tabBtnFrame
         tabBtn.BackgroundColor3 = Color3.fromRGB(166, 248, 255)
         tabBtn.BackgroundTransparency = 1.000
-        tabBtn.Position = UDim2.new(0.057, 0, 0, 0)
+        tabBtn.Position = UDim2.new(0.06, 0, 0, 0)
         tabBtn.Size = UDim2.new(0, 101, 0, 30)
         tabBtn.ZIndex = 2
         tabBtn.Font = Enum.Font.Gotham
@@ -336,7 +336,7 @@ function UILib.CreateWindow(libName, version, logoId)
                                     v,
                                     TweenInfo.new(0.18, Enum.EasingStyle.Quint, Enum.EasingDirection.In),
                                     {
-                                        TextColor3 = Color3.fromRGB(169, 192, 194)
+                                        TextColor3 = Color3.fromRGB(196, 250, 255)
                                     }
                                 ):Play()
                             end
