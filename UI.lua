@@ -152,7 +152,7 @@ function UILib.CreateWindow(libName, version, logoId)
 
     hubLogo.Name = "hubLogo"
     hubLogo.Parent = sideHeading
-    hubLogo.BackgroundColor3 = Color3.fromRGB(227, 66, 255)
+    hubLogo.BackgroundColor3 = Color3.fromRGB(66, 148, 255)
     hubLogo.Position = UDim2.new(0.0567928664, 0, 0.0243411884, 0)
     hubLogo.Size = UDim2.new(0, 33, 0, 33)
     hubLogo.ZIndex = 2
@@ -169,10 +169,10 @@ function UILib.CreateWindow(libName, version, logoId)
     hubName.Position = UDim2.new(0.35, 0, 0.0299999975, 0)
     hubName.Size = UDim2.new(0, 110, 0, 16)
     hubName.ZIndex = 2
-    hubName.Font = Enum.Font.Creepster
+    hubName.Font = Enum.Font.LuckiestGuy
     hubName.Text = libName
     hubName.TextColor3 = Color3.fromRGB(7, 31, 138)
-    hubName.TextSize = 16.000
+    hubName.TextSize = 18.000
     hubName.TextWrapped = true
     hubName.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -195,7 +195,7 @@ function UILib.CreateWindow(libName, version, logoId)
     usename.Parent = sideHeading
     usename.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     usename.BackgroundTransparency = 1.000
-    usename.Position = UDim2.new(0.290000081, 0, 0.0700000152, 0)
+    usename.Position = UDim2.new(0.35, 0, 0.0700000152, 0)
     usename.Size = UDim2.new(0, 110, 0, 16)
     usename.ZIndex = 2
     usename.Font = Enum.Font.GothamSemibold
