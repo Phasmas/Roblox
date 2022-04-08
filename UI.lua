@@ -440,17 +440,17 @@ function UILib.CreateWindow(libName, version, logoId)
             mainSectionHead.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             mainSectionHead.BackgroundTransparency = 1.000
             mainSectionHead.BorderSizePixel = 0
-            mainSectionHead.Size = UDim2.new(0, 600, 0, 36)
+            mainSectionHead.Size = UDim2.new(0, 381, 0, 36)
 
             sectionName.Name = "sectionName"
             sectionName.Parent = mainSectionHead
             sectionName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             sectionName.BackgroundTransparency = 1.000
             sectionName.Position = UDim2.new(0.0236220472, 0, 0, 0)
-            sectionName.Size = UDim2.new(0, 580, 0, 36)
+            sectionName.Size = UDim2.new(0, 302, 0, 36)                         --Section heading size
             sectionName.Font = Enum.Font.GothamSemibold
             sectionName.Text = sectionText
-            sectionName.TextColor3 = Color3.fromRGB(15, 59, 255)
+            sectionName.TextColor3 = Color3.fromRGB(15, 59, 255)                --Section heading text color
             sectionName.TextSize = 14.000
             sectionName.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -461,7 +461,7 @@ function UILib.CreateWindow(libName, version, logoId)
             sectionExpannd.Size = UDim2.new(0, 25, 0, 25)
             sectionExpannd.ZIndex = 2
             sectionExpannd.Image = "rbxassetid://3926305904"
-            sectionExpannd.ImageColor3 = Color3.fromRGB(153, 255, 238)
+            sectionExpannd.ImageColor3 = Color3.fromRGB(15, 59, 255)
             sectionExpannd.ImageRectOffset = Vector2.new(564, 284)
             sectionExpannd.ImageRectSize = Vector2.new(36, 36)
 
@@ -725,8 +725,8 @@ function UILib.CreateWindow(libName, version, logoId)
                 local on = enabledByDefault
                 local togDe = false
                 if enabledByDefault then
-                    checkBtn.Parent.toggleInfo.TextColor3 = Color3.fromRGB(153, 255, 238)
-                    checkBtn.ImageColor3 = Color3.fromRGB(153, 255, 238)
+                    checkBtn.Parent.toggleInfo.TextColor3 = Color3.fromRGB(15, 59, 255)
+                    checkBtn.ImageColor3 = Color3.fromRGB(15, 59, 255)
                     checkBtn.ImageRectOffset = Vector2.new(4, 836)
                     checkBtn.ImageRectSize = Vector2.new(48, 48)
                     callback(on)
