@@ -156,7 +156,7 @@ function UILib.CreateWindow(libName, version, logoId)
     hubLogo.Position = UDim2.new(0.0567928664, 0, 0.0243411884, 0)
     hubLogo.Size = UDim2.new(0, 30, 0, 30)
     hubLogo.ZIndex = 2
-    hubLogo.Image = "http://www.roblox.com/asset/?id=6087537285"
+    hubLogo.Image = "https://c.tenor.com/atuw3rTKjjoAAAAC/waves-animated.gif"
 
     MainCorner_2.CornerRadius = UDim.new(0, 999)
     MainCorner_2.Name = "MainCorner"
@@ -215,7 +215,7 @@ function UILib.CreateWindow(libName, version, logoId)
     wave.BackgroundTransparency = 1.000
     wave.Position = UDim2.new(0.0213434305, 0, 0, 0)
     wave.Size = UDim2.new(0.97865659, 0, 0.557522118, 0)
-    wave.Image = "https://c.tenor.com/atuw3rTKjjoAAAAC/waves-animated.gif"
+    wave.Image = "http://www.roblox.com/asset/?id=6087537285"
     wave.ImageColor3 = Color3.fromRGB(227, 66, 255)
     wave.ImageTransparency = 0.300
     wave.ScaleType = Enum.ScaleType.Slice
