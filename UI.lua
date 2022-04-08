@@ -271,7 +271,7 @@ function UILib.CreateWindow(libName, version, logoId)
         tabBtn.ZIndex = 2
         tabBtn.Font = Enum.Font.Gotham
         tabBtn.Text = tabText
-        tabBtn.TextColor3 = Color3.fromRGB(153, 255, 238)
+        tabBtn.TextColor3 = Color3.fromRGB(15, 59, 255)
         tabBtn.TextSize = 14.000
         tabBtn.TextXAlignment = Enum.TextXAlignment.Left
 
