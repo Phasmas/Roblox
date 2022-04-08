@@ -737,7 +737,7 @@ function UILib.CreateWindow(libName, version, logoId)
                             togDe = true
                             on = not on
                             if on then
-                                checkBtn.Parent.toggleInfo.TextColor3 = Color3.fromRGB(153, 255, 238)
+                                checkBtn.Parent.toggleInfo.TextColor3 = Color3.fromRGB(15, 59, 255)
                                 checkBtn.ImageColor3 = Color3.fromRGB(153, 255, 238)
                                 checkBtn.ImageRectOffset = Vector2.new(4, 836)
                                 checkBtn.ImageRectSize = Vector2.new(48, 48)
