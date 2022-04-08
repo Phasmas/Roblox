@@ -447,10 +447,10 @@ function UILib.CreateWindow(libName, version, logoId)
             sectionName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             sectionName.BackgroundTransparency = 1.000
             sectionName.Position = UDim2.new(0.0236220472, 0, 0, 0)
-            sectionName.Size = UDim2.new(0, 302, 0, 36)
+            sectionName.Size = UDim2.new(0, 302, 0, 60)
             sectionName.Font = Enum.Font.GothamSemibold
             sectionName.Text = sectionText
-            sectionName.TextColor3 = Color3.fromRGB(153, 255, 238)
+            sectionName.TextColor3 = Color3.fromRGB(15, 59, 255)
             sectionName.TextSize = 14.000
             sectionName.TextXAlignment = Enum.TextXAlignment.Left
 
