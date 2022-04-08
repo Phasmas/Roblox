@@ -152,7 +152,7 @@ function UILib.CreateWindow(libName, version, logoId)
 
     hubLogo.Name = "hubLogo"
     hubLogo.Parent = sideHeading
-    hubLogo.BackgroundColor3 = Color3.fromRGB(7, 31, 138)
+    hubLogo.BackgroundColor3 = Color3.fromRGB(15, 59, 255)
     hubLogo.Position = UDim2.new(0.0567928664, 0, 0.0243411884, 0)
     hubLogo.Size = UDim2.new(0, 33, 0, 33)
     hubLogo.ZIndex = 2
@@ -171,7 +171,7 @@ function UILib.CreateWindow(libName, version, logoId)
     hubName.ZIndex = 2
     hubName.Font = Enum.Font.LuckiestGuy
     hubName.Text = libName
-    hubName.TextColor3 = Color3.fromRGB(7, 31, 138)
+    hubName.TextColor3 = Color3.fromRGB(15, 59, 255)
     hubName.TextSize = 18.000
     hubName.TextWrapped = true
     hubName.TextXAlignment = Enum.TextXAlignment.Left
@@ -179,13 +179,13 @@ function UILib.CreateWindow(libName, version, logoId)
     tabFrame.Name = "tabFrame"
     tabFrame.Parent = sideHeading
     tabFrame.Active = true
-    tabFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    tabFrame.BackgroundColor3 = Color3.fromRGB(15, 59, 255)
     tabFrame.BackgroundTransparency = 1.000
     tabFrame.BorderSizePixel = 0
     tabFrame.Position = UDim2.new(0.0761478543, 0, 0.126385808, 0)
     tabFrame.Size = UDim2.new(0, 135, 0, 347)
     tabFrame.ZIndex = 2
-    tabFrame.ScrollBarThickness = 0
+    tabFrame.ScrollBarThickness = 5
 
     UIListLayout.Parent = tabFrame
     UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
@@ -200,7 +200,7 @@ function UILib.CreateWindow(libName, version, logoId)
     usename.ZIndex = 2
     usename.Font = Enum.Font.GothamSemibold
     usename.Text = version
-    usename.TextColor3 = Color3.fromRGB(7, 31, 138)
+    usename.TextColor3 = Color3.fromRGB(15, 59, 255)
     usename.TextSize = 12.000
     usename.TextWrapped = true
     usename.TextXAlignment = Enum.TextXAlignment.Left
