@@ -179,13 +179,13 @@ function UILib.CreateWindow(libName, version, logoId)
     tabFrame.Name = "tabFrame"
     tabFrame.Parent = sideHeading
     tabFrame.Active = true
-    tabFrame.BackgroundColor3 = Color3.fromRGB(15, 59, 255)
+    tabFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     tabFrame.BackgroundTransparency = 1.000
     tabFrame.BorderSizePixel = 0
-    tabFrame.Position = UDim2.new(0.0761478543, 0, 0.126385808, 0)
+    tabFrame.Position = UDim2.new(0.0567928664, 0, 0.126385808, 0)
     tabFrame.Size = UDim2.new(0, 135, 0, 347)
     tabFrame.ZIndex = 2
-    tabFrame.ScrollBarThickness = 5
+    tabFrame.ScrollBarThickness = 4
 
     UIListLayout.Parent = tabFrame
     UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
