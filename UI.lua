@@ -364,7 +364,7 @@ function UILib.CreateWindow(libName, version, logoId)
                     tabBtn,
                     TweenInfo.new(0.18, Enum.EasingStyle.Quint, Enum.EasingDirection.In),
                     {
-                        TextColor3 = Color3.fromRGB(153, 255, 238)
+                        TextColor3 = Color3.fromRGB(15, 59, 255)
                     }
                 ):Play()
             end
