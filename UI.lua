@@ -440,14 +440,14 @@ function UILib.CreateWindow(libName, version, logoId)
             mainSectionHead.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             mainSectionHead.BackgroundTransparency = 1.000
             mainSectionHead.BorderSizePixel = 0
-            mainSectionHead.Size = UDim2.new(0, 400, 0, 36)
+            mainSectionHead.Size = UDim2.new(0, 600, 0, 36)
 
             sectionName.Name = "sectionName"
             sectionName.Parent = mainSectionHead
             sectionName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             sectionName.BackgroundTransparency = 1.000
             sectionName.Position = UDim2.new(0.0236220472, 0, 0, 0)
-            sectionName.Size = UDim2.new(0, 400, 0, 36)
+            sectionName.Size = UDim2.new(0, 580, 0, 36)
             sectionName.Font = Enum.Font.GothamSemibold
             sectionName.Text = sectionText
             sectionName.TextColor3 = Color3.fromRGB(15, 59, 255)
