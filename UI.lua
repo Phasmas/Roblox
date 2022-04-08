@@ -337,7 +337,7 @@ function UILib.CreateWindow(libName, version, logoId)
                                     v,
                                     TweenInfo.new(0.18, Enum.EasingStyle.Quint, Enum.EasingDirection.In),
                                     {
-                                        TextColor3 = Color3.fromRGB(35, 59, 55)
+                                        TextColor3 = Color3.fromRGB(93, 120, 227)
                                     }
                                 ):Play()
                             end
@@ -1479,7 +1479,7 @@ function UILib.CreateWindow(libName, version, logoId)
                     optionBtn1.AutoButtonColor = false
                     optionBtn1.Font = Enum.Font.GothamSemibold
                     optionBtn1.Text = "  " .. v
-                    optionBtn1.TextColor3 = Color3.fromRGB(7, 31, 138)
+                    optionBtn1.TextColor3 = Color3.fromRGB(15, 59, 255)
                     optionBtn1.TextSize = 14.000
                     optionBtn1.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -1560,7 +1560,7 @@ function UILib.CreateWindow(libName, version, logoId)
                                 TweenInfo.new(0.18, Enum.EasingStyle.Linear, Enum.EasingDirection.Out),
                                 {
                                     BackgroundColor3 = Color3.fromRGB(21, 21, 21),
-                                    TextColor3 = Color3.fromRGB(7, 31, 138)
+                                    TextColor3 = Color3.fromRGB(15, 59, 255)
                                 }
                             ):Play()
                         end
