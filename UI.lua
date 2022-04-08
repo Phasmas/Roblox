@@ -147,7 +147,7 @@ function UILib.CreateWindow(libName, version, logoId)
     sideCover.Parent = sideHeading
     sideCover.BackgroundColor3 = Color3.fromRGB(7, 31, 138)
     sideCover.BorderSizePixel = 0
-    sideCover.Position = UDim2.new(3, 0, 0, 0)
+    sideCover.Position = UDim2.new(0.95, 0, 0, 0)
     sideCover.Size = UDim2.new(0, 25, 0, 452)
 
     hubLogo.Name = "hubLogo"
@@ -215,7 +215,7 @@ function UILib.CreateWindow(libName, version, logoId)
     wave.BackgroundTransparency = 1.000
     wave.Position = UDim2.new(0.0213434305, 0, 0, 0)
     wave.Size = UDim2.new(0.97865659, 0, 0.557522118, 0)
-    wave.Image = "http://www.roblox.com/asset/?id=6087537285"
+    wave.Image = "https://c.tenor.com/atuw3rTKjjoAAAAC/waves-animated.gif"
     wave.ImageColor3 = Color3.fromRGB(227, 66, 255)
     wave.ImageTransparency = 0.300
     wave.ScaleType = Enum.ScaleType.Slice
