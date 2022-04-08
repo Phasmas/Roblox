@@ -121,11 +121,21 @@ function UILib.CreateWindow(libName, version, logoId)
     libName = libName or "LuxtLib"
     logoId = logoId or ""
     version = version or game:GetService("Players").LocalPlayer.Name
-    --
-
     LuxtLib.Name = "LuxtLib" .. libName
     LuxtLib.Parent = game.CoreGui
     LuxtLib.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+    --
+    
+    shadow.Name = "shadow"
+    shadow.Parent = LuxtLib
+    shadow.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+    shadow.BackgroundTransparency = 1.000
+    shadow.Position = UDim2.new(0.319562584, 0, 0.168689325, 0)
+    shadow.Size = UDim2.new(0, 719, 0, 530)
+    shadow.ZIndex = 0
+    shadow.Image = "http://www.roblox.com/asset/?id=6105530152"
+    shadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
+    shadow.ImageTransparency = 0.200
 
     MainFrame.Name = "MainFrame"
     MainFrame.Parent = shadow
@@ -183,7 +193,7 @@ function UILib.CreateWindow(libName, version, logoId)
     tabFrame.BackgroundTransparency = 1.000
     tabFrame.BorderSizePixel = 3
     tabFrame.Position = UDim2.new(0.0000064, 0, 0.126385808, 0)
-    tabFrame.Size = UDim2.new(0, 135, 0, 347)
+    tabFrame.Size = UDim2.new(0, 140, 0, 347)
     tabFrame.ZIndex = 2
     tabFrame.ScrollBarThickness = 4
 
@@ -233,17 +243,6 @@ function UILib.CreateWindow(libName, version, logoId)
     framesAll.Size = UDim2.new(0, 381, 0, 431)
     framesAll.ZIndex = 2
 
-    shadow.Name = "shadow"
-    shadow.Parent = LuxtLib
-    shadow.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
-    shadow.BackgroundTransparency = 1.000
-    shadow.Position = UDim2.new(0.319562584, 0, 0.168689325, 0)
-    shadow.Size = UDim2.new(0, 719, 0, 530)
-    shadow.ZIndex = 0
-    shadow.Image = "http://www.roblox.com/asset/?id=6105530152"
-    shadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
-    shadow.ImageTransparency = 0.200
-
     local TabHandling = {}
 
     function TabHandling:Tab(tabText, tabId)
@@ -266,7 +265,7 @@ function UILib.CreateWindow(libName, version, logoId)
         tabBtn.Parent = tabBtnFrame
         tabBtn.BackgroundColor3 = Color3.fromRGB(166, 248, 255)
         tabBtn.BackgroundTransparency = 1.000
-        tabBtn.Position = UDim2.new(0.045534033, 0, 0, 0)
+        tabBtn.Position = UDim2.new(0.0567928664, 0, 0, 0)
         tabBtn.Size = UDim2.new(0, 101, 0, 30)
         tabBtn.ZIndex = 2
         tabBtn.Font = Enum.Font.Gotham
