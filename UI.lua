@@ -953,7 +953,7 @@ function UILib.CreateWindow(libName, version, logoId)
                 textboxInfo.TextXAlignment = Enum.TextXAlignment.Left
 
                 TextBox.Parent = textboxFrame
-                TextBox.BackgroundColor3 = Color3.fromRGB(153, 255, 238)
+                TextBox.BackgroundColor3 = Color3.fromRGB(15, 59, 255)
                 TextBox.ClipsDescendants = true
                 TextBox.Position = UDim2.new(0.0250000004, 0, 0.194000006, 0)
                 TextBox.Size = UDim2.new(0, 100, 0, 22)
@@ -1064,7 +1064,7 @@ function UILib.CreateWindow(libName, version, logoId)
 
                 dragSlider.Name = "dragSlider"
                 dragSlider.Parent = sliderbtn
-                dragSlider.BackgroundColor3 = Color3.fromRGB(153, 255, 238)
+                dragSlider.BackgroundColor3 = Color3.fromRGB(15, 59, 255)
                 dragSlider.Size = UDim2.new(0, 0, 0, 6)
                 dragSlider.ZIndex = 2
 
@@ -1423,7 +1423,7 @@ function UILib.CreateWindow(libName, version, logoId)
                 expand_more.Size = UDim2.new(0, 25, 0, 25)
                 expand_more.ZIndex = 2
                 expand_more.Image = "rbxassetid://3926305904"
-                expand_more.ImageColor3 = Color3.fromRGB(153, 255, 238)
+                expand_more.ImageColor3 = Color3.fromRGB(15, 59, 255)
                 expand_more.ImageRectOffset = Vector2.new(564, 284)
                 expand_more.ImageRectSize = Vector2.new(36, 36)
                 dropdownFrame.MouseButton1Click:Connect(dropdown)
