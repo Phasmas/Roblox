@@ -608,7 +608,7 @@ function UILib.CreateWindow(libName, version, logoId)
                                 TextButton,
                                 TweenInfo.new(0.18, Enum.EasingStyle.Linear, Enum.EasingDirection.Out),
                                 {
-                                    BackgroundColor3 = Color3.fromRGB(0, 255, 0),
+                                    BackgroundColor3 = Color3.fromRGB(15, 59, 255),
                                     TextColor3 = Color3.fromRGB(0, 0, 0)
                                 }
                             ):Play()
@@ -1438,7 +1438,7 @@ function UILib.CreateWindow(libName, version, logoId)
                 dropdownItem1.ZIndex = 2
                 dropdownItem1.Font = Enum.Font.GothamSemibold
                 dropdownItem1.Text = dropInfo
-                dropdownItem1.TextColor3 = Color3.fromRGB(153, 255, 238)
+                dropdownItem1.TextColor3 = Color3.fromRGB(15, 59, 255)
                 dropdownItem1.TextSize = 14.000
                 dropdownItem1.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -1532,7 +1532,7 @@ function UILib.CreateWindow(libName, version, logoId)
                                 optionBtn1,
                                 TweenInfo.new(0.18, Enum.EasingStyle.Linear, Enum.EasingDirection.Out),
                                 {
-                                    BackgroundColor3 = Color3.fromRGB(0, 255, 0),
+                                    BackgroundColor3 = Color3.fromRGB(15, 59, 255),
                                     TextColor3 = Color3.fromRGB(0, 0, 0)
                                 }
                             ):Play()
