@@ -462,7 +462,7 @@ function UILib.CreateWindow(libName, version, logoId)
             sectionExpannd.Size = UDim2.new(0, 25, 0, 25)
             sectionExpannd.ZIndex = 2
             sectionExpannd.Image = "rbxassetid://3926305904"
-            sectionExpannd.ImageColor3 = Color3.fromRGB(153, 255, 238)
+            sectionExpannd.ImageColor3 = Color3.fromRGB(15, 59, 255)
             sectionExpannd.ImageRectOffset = Vector2.new(564, 284)
             sectionExpannd.ImageRectSize = Vector2.new(36, 36)
 
