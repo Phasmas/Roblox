@@ -840,7 +840,7 @@ function UILib.CreateWindow(libName, version, logoId)
                 key.ZIndex = 2
                 key.Font = Enum.Font.GothamSemibold
                 key.Text = oldKey
-                key.TextColor3 = Color3.fromRGB(153, 255, 238)
+                key.TextColor3 = Color3.fromRGB(15, 59, 255)
                 key.TextSize = 14.000
 
                 UICorner_2.CornerRadius = UDim.new(0, 5)
