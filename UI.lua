@@ -208,7 +208,7 @@ function UILib.CreateWindow(libName, version, logoId)
     usename.Position = UDim2.new(0.35, 0, 0.0700000152, 0)
     usename.Size = UDim2.new(0, 110, 0, 16)
     usename.ZIndex = 2
-    usename.Font = Enum.Font.GothamSemibold
+    usename.Font = Enum.Font.Gotham
     usename.Text = version
     usename.TextColor3 = Color3.fromRGB(15, 59, 255)
     usename.TextSize = 12.000
@@ -268,7 +268,7 @@ function UILib.CreateWindow(libName, version, logoId)
         tabBtn.Position = UDim2.new(0.06, 0, 0, 0)
         tabBtn.Size = UDim2.new(0, 101, 0, 30)
         tabBtn.ZIndex = 2
-        tabBtn.Font = Enum.Font.Gotham
+        tabBtn.Font = Enum.Font.LuckiestGuy
         tabBtn.Text = tabText
         tabBtn.TextColor3 = Color3.fromRGB(15, 59, 255)
         tabBtn.TextSize = 14.000
@@ -461,7 +461,7 @@ function UILib.CreateWindow(libName, version, logoId)
             sectionExpannd.Size = UDim2.new(0, 25, 0, 25)
             sectionExpannd.ZIndex = 2
             sectionExpannd.Image = "rbxassetid://3926305904"
-            sectionExpannd.ImageColor3 = Color3.fromRGB(15, 59, 255)
+            sectionExpannd.ImageColor3 = Color3.fromRGB(153, 255, 238)
             sectionExpannd.ImageRectOffset = Vector2.new(564, 284)
             sectionExpannd.ImageRectSize = Vector2.new(36, 36)
 
@@ -608,7 +608,7 @@ function UILib.CreateWindow(libName, version, logoId)
                                 TextButton,
                                 TweenInfo.new(0.18, Enum.EasingStyle.Linear, Enum.EasingDirection.Out),
                                 {
-                                    BackgroundColor3 = Color3.fromRGB(101, 168, 157),
+                                    BackgroundColor3 = Color3.fromRGB(0, 255, 0),
                                     TextColor3 = Color3.fromRGB(0, 0, 0)
                                 }
                             ):Play()
@@ -771,8 +771,8 @@ function UILib.CreateWindow(libName, version, logoId)
                             togDe = true
                             on = not on
                             if on then
-                                checkBtn.Parent.toggleInfo.TextColor3 = Color3.fromRGB(153, 255, 238)
-                                checkBtn.ImageColor3 = Color3.fromRGB(153, 255, 238)
+                                checkBtn.Parent.toggleInfo.TextColor3 = Color3.fromRGB(15, 59, 255)
+                                checkBtn.ImageColor3 = Color3.fromRGB(15, 59, 255)
                                 checkBtn.ImageRectOffset = Vector2.new(4, 836)
                                 checkBtn.ImageRectSize = Vector2.new(48, 48)
                             else
@@ -1532,7 +1532,7 @@ function UILib.CreateWindow(libName, version, logoId)
                                 optionBtn1,
                                 TweenInfo.new(0.18, Enum.EasingStyle.Linear, Enum.EasingDirection.Out),
                                 {
-                                    BackgroundColor3 = Color3.fromRGB(101, 168, 157),
+                                    BackgroundColor3 = Color3.fromRGB(0, 255, 0),
                                     TextColor3 = Color3.fromRGB(0, 0, 0)
                                 }
                             ):Play()
