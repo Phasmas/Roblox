@@ -261,6 +261,7 @@ function UILib.CreateWindow(libName, version, logoId)
         tabBtnFrame.Size = UDim2.new(0, 135, 0, 30)
         tabBtnFrame.ZIndex = 2
 
+        --Side menu button config
         tabBtn.Name = "tabBtn"
         tabBtn.Parent = tabBtnFrame
         tabBtn.BackgroundColor3 = Color3.fromRGB(166, 248, 255)
@@ -356,7 +357,7 @@ function UILib.CreateWindow(libName, version, logoId)
                     tabLogo,
                     TweenInfo.new(0.18, Enum.EasingStyle.Quint, Enum.EasingDirection.In),
                     {
-                        ImageColor3 = Color3.fromRGB(153, 255, 238)
+                        ImageColor3 = Color3.fromRGB(15, 59, 255)
                     }
                 ):Play()
                 game.TweenService:Create(
