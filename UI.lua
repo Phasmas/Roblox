@@ -225,9 +225,9 @@ function UILib.CreateWindow(libName, version, logoId)
     wave.BackgroundTransparency = 1.000
     wave.Position = UDim2.new(0.0213434305, 0, 0, 0)
     wave.Size = UDim2.new(0.97865659, 0, 0.557522118, 0)
-    wave.Image = "rbxassetid://6087537285"
+    wave.Image = "rbxassetid://591067775"
     wave.ImageColor3 = Color3.fromRGB(227, 66, 255)
-    wave.ImageTransparency = 0.300
+    wave.ImageTransparency = 0
     wave.ScaleType = Enum.ScaleType.Slice
 
     MainCorner_4.CornerRadius = UDim.new(0, 3)
