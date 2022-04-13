@@ -128,7 +128,7 @@ function UILib.CreateWindow(libName, version, logoId)
     
     shadow.Name = "shadow"
     shadow.Parent = LuxtLib
-    shadow.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+    shadow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     shadow.BackgroundTransparency = 1.000
     shadow.Position = UDim2.new(0.319562584, 0, 0.168689325, 0)
     shadow.Size = UDim2.new(0, 719, 0, 530)
@@ -139,7 +139,8 @@ function UILib.CreateWindow(libName, version, logoId)
 
     MainFrame.Name = "MainFrame"
     MainFrame.Parent = shadow
-    MainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    MainFrame.BackgroundTransparency = 1.000
     MainFrame.Image = "rbxassetid://591067775"
     MainFrame.Position = UDim2.new(0.048, 0, 0.075, 0)
     MainFrame.Size = UDim2.new(0, 653, 0, 452)
@@ -163,7 +164,7 @@ function UILib.CreateWindow(libName, version, logoId)
 
     hubLogo.Name = "hubLogo"
     hubLogo.Parent = sideHeading
-    hubLogo.BackgroundColor3 = Color3.fromRGB(15, 59, 255)
+    hubLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     hubLogo.Position = UDim2.new(0.0567928664, 0, 0.0243411884, 0)
     hubLogo.Size = UDim2.new(0, 33, 0, 33)
     hubLogo.ZIndex = 2
