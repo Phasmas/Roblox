@@ -3,7 +3,7 @@ local UILib = {}
 function UILib.CreateWindow(libName, version, logoId)
     local LuxtLib = Instance.new("ScreenGui")
     local shadow = Instance.new("ImageLabel")
-    local MainFrame = Instance.new("Frame")
+    local MainFrame = Instance.new("ImageLabel")
     local sideHeading = Instance.new("Frame")
     local MainCorner = Instance.new("UICorner")
     local sideCover = Instance.new("Frame")
