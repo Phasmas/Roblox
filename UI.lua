@@ -140,7 +140,7 @@ function UILib.CreateWindow(libName, version, logoId)
     MainFrame.Name = "MainFrame"
     MainFrame.Parent = shadow
     MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    MainFrame.BackgroundTransparency = 0.000
+    MainFrame.BackgroundTransparency = 0.300
     MainFrame.Image = "rbxassetid://591067775"
     MainFrame.Position = UDim2.new(0.048, 0, 0.075, 0)
     MainFrame.Size = UDim2.new(0, 653, 0, 452)
@@ -164,7 +164,7 @@ function UILib.CreateWindow(libName, version, logoId)
 
     hubLogo.Name = "hubLogo"
     hubLogo.Parent = sideHeading
-    hubLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    hubLogo.BackgroundColor3 = Color3.fromRGB(15, 59, 255)
     hubLogo.Position = UDim2.new(0.0567928664, 0, 0.0243411884, 0)
     hubLogo.Size = UDim2.new(0, 33, 0, 33)
     hubLogo.ZIndex = 2
@@ -227,9 +227,9 @@ function UILib.CreateWindow(libName, version, logoId)
     wave.BackgroundTransparency = 1.000
     wave.Position = UDim2.new(0.0213434305, 0, 0, 0)
     wave.Size = UDim2.new(0.97865659, 0, 0.557522118, 0)
-    wave.Image = "rbxassetid://591067775"
+    wave.Image = "rbxassetid://6087537285"
     wave.ImageColor3 = Color3.fromRGB(227, 66, 255)
-    wave.ImageTransparency = 0
+    wave.ImageTransparency = 0.000
     wave.ScaleType = Enum.ScaleType.Slice
 
     MainCorner_4.CornerRadius = UDim.new(0, 3)
