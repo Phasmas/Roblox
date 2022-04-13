@@ -3,7 +3,7 @@ local UILib = {}
 function UILib.CreateWindow(libName, version, logoId)
     local LuxtLib = Instance.new("ScreenGui")
     local shadow = Instance.new("ImageLabel")
-    local MainFrame = Instance.new("ImageLabel")
+    local MainFrame = Instance.new("Frame")
     local sideHeading = Instance.new("Frame")
     local MainCorner = Instance.new("UICorner")
     local sideCover = Instance.new("Frame")
@@ -139,9 +139,7 @@ function UILib.CreateWindow(libName, version, logoId)
 
     MainFrame.Name = "MainFrame"
     MainFrame.Parent = shadow
-    MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    MainFrame.BackgroundTransparency = 0.300
-    MainFrame.Image = "rbxassetid://591067775"
+    MainFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
     MainFrame.Position = UDim2.new(0.048, 0, 0.075, 0)
     MainFrame.Size = UDim2.new(0, 653, 0, 452)
 
