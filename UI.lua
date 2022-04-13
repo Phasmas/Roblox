@@ -140,7 +140,7 @@ function UILib.CreateWindow(libName, version, logoId)
     MainFrame.Name = "MainFrame"
     MainFrame.Parent = shadow
     MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-    MainFrame.BackgroundTransparency = 1.000
+    MainFrame.BackgroundTransparency = 0.000
     MainFrame.Image = "rbxassetid://591067775"
     MainFrame.Position = UDim2.new(0.048, 0, 0.075, 0)
     MainFrame.Size = UDim2.new(0, 653, 0, 452)
@@ -168,7 +168,7 @@ function UILib.CreateWindow(libName, version, logoId)
     hubLogo.Position = UDim2.new(0.0567928664, 0, 0.0243411884, 0)
     hubLogo.Size = UDim2.new(0, 33, 0, 33)
     hubLogo.ZIndex = 2
-    hubLogo.Image = "rbxassetid://9138321382"
+    hubLogo.Image = "rbxassetid://6087537285"
 
     MainCorner_2.CornerRadius = UDim.new(0, 999)
     MainCorner_2.Name = "MainCorner"
