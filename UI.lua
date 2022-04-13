@@ -131,9 +131,9 @@ function UILib.CreateWindow(libName, version, logoId)
     shadow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     shadow.BackgroundTransparency = 1.000
     shadow.Position = UDim2.new(0.319562584, 0, 0.168689325, 0)
-    shadow.Size = UDim2.new(0, 1200, 0, 1000)
+    shadow.Size = UDim2.new(0, 719, 0, 530)
     shadow.ZIndex = 0
-    shadow.Image = "rbxassetid://6383731356"
+    shadow.Image = "rbxassetid://6105530152"
     shadow.ImageColor3 = Color3.fromRGB(0, 0, 0)
     shadow.ImageTransparency = 0.200
 
