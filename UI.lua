@@ -51,10 +51,10 @@ function UILib.CreateWindow(libName, version, logoId)
         function(current, ok)
             if not ok then
                 if current.KeyCode.Name == oldKey then
-                    if LuxtLib.Enabled == true then
-                        LuxtLib.Enabled = false
-                    else
+                    if LuxtLib.Enabled == false then
                         LuxtLib.Enabled = true
+                    else
+                        LuxtLib.Enabled = false
                     end
                 end
             end
