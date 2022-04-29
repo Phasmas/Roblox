@@ -166,7 +166,7 @@ function UILib.CreateWindow(libName, version, logoId)
     hubLogo.Position = UDim2.new(0.0567928664, 0, 0.0243411884, 0)
     hubLogo.Size = UDim2.new(0, 33, 0, 33)
     hubLogo.ZIndex = 2
-    hubLogo.Image = "rbxassetid://6087537285"
+    hubLogo.Image = "rbxassetid://4615292350"
 
     MainCorner_2.CornerRadius = UDim.new(0, 999)
     MainCorner_2.Name = "MainCorner"
