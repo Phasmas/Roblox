@@ -51,10 +51,10 @@ function UILib.CreateWindow(libName, version, logoId)
         function(current, ok)
             if not ok then
                 if current.KeyCode.Name == oldKey then
-                    if LuxtLib.Enabled == false then
+                    if LuxtLib.Enabled == true then
                         LuxtLib.Enabled = false
                     else
-                        LuxtLib.Enabled = true
+                        LuxtLib.Enabled = false
                     end
                 end
             end
@@ -166,7 +166,7 @@ function UILib.CreateWindow(libName, version, logoId)
     hubLogo.Position = UDim2.new(0.0567928664, 0, 0.0243411884, 0)
     hubLogo.Size = UDim2.new(0, 33, 0, 33)
     hubLogo.ZIndex = 2
-    hubLogo.Image = "rbxassetid://4615292350"
+    hubLogo.Image = "rbxassetid://6087537285"
 
     MainCorner_2.CornerRadius = UDim.new(0, 999)
     MainCorner_2.Name = "MainCorner"
