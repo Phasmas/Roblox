@@ -54,7 +54,7 @@ function UILib.CreateWindow(libName, version, logoId)
                     if LuxtLib.Enabled == true then
                         LuxtLib.Enabled = false
                     else
-                        LuxtLib.Enabled = false
+                        LuxtLib.Enabled = true
                     end
                 end
             end
